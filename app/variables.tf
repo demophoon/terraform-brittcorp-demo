@@ -18,3 +18,7 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "access_key" { }
+variable "secret_key" {
+  sensitive = true
+}
